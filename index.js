@@ -8,47 +8,43 @@ const questions = [
   {
     type: "input",
     name: "github",
-    message: "what is your github username",
+    message: "what is your github username?",
   },
   {
     type: "input",
-    name: "github",
-    message: "what is your github username",
+    name: "title",
+    message: "what is the title of your project?",
   },
   {
     type: "input",
-    name: "github",
-    message: "what is your github username",
+    name: "description",
+    message: "describe your project",
+  },
+  {
+    type: "list",
+    name: "liscense",
+    message: "what kind of liscence does your project have",
+    choices: ["MIT", "Apache2.0", "GPL3.0"],
   },
   {
     type: "input",
-    name: "github",
-    message: "what is your github username",
+    name: "installation",
+    message: "what command should you run to install dependancies",
   },
   {
     type: "input",
-    name: "github",
-    message: "what is your github username",
+    name: "test",
+    message: "what command should you use to run tests",
   },
   {
     type: "input",
-    name: "github",
-    message: "what is your github username",
+    name: "usage",
+    message: "what does the user need to know about using the repo",
   },
   {
     type: "input",
-    name: "github",
-    message: "what is your github username",
-  },
-  {
-    type: "input",
-    name: "github",
-    message: "what is your github username",
-  },
-  {
-    type: "input",
-    name: "github",
-    message: "what is your github username",
+    name: "contributing",
+    message: "what does the user need to do to contribute",
   },
 ];
 
