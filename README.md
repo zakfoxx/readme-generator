@@ -1,27 +1,11 @@
-# Project 1
-## Description
-Unkn
+Created a command-line application that accepts user input containing repository information
 
-## Table of Contents (Optional)
-If your README is long, add a table of contents to make it easy for users to find what they need.
+High-Quality, professinal readme is generated via output.md containing Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Added badges for MIT, Apache2.0, and GPL3.0 licenses
 
-## Installation
-unkn
+GitHub username added with link to GitHub Profile
 
-## Usage
-unkn
+Email address added to README section entitled Questinons, with instructions/contact info/questions
 
-## License
-Apache2.0
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-## How to Contribute
-
-## Tests
-
+Links in Table of Contents takes user to corresponding section of generated README

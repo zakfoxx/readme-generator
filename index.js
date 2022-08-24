@@ -59,7 +59,7 @@ function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
     console.log("creating readme...");
     writeToFile(
-      "README.md",
+      "output.md",
       generateMarkdown({
         ...inquirerResponses,
       })
