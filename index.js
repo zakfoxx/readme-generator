@@ -22,10 +22,11 @@ const questions = [
   },
   {
     type: "list",
-    name: "liscense",
-    message: "what kind of liscence does your project have",
+    name: "license",
+    message: "what kind of licence does your project have",
     choices: ["MIT", "Apache2.0", "GPL3.0"],
   },
+
   {
     type: "input",
     name: "installation",
@@ -55,7 +56,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-  inquirer.prompt(questions).then((inquirerResponses) => {
+    inquirer.prompt(questions).then((inquirerResponses) => {
     console.log("creating readme...");
     writeToFile(
       "README.md",
@@ -65,6 +66,5 @@ function init() {
     );
   });
 }
-
 // Function call to initialize app
 init();
